@@ -14,7 +14,7 @@ function HeroSection() {
             {profile.role}
           </span>
 
-          <h1 className="mt-5 max-w-2xl text-4xl font-black tracking-[-0.04em] text-[#2f241d] sm:text-5xl lg:text-6xl">
+         <h1 className="mt-5 max-w-2xl text-4xl font-black tracking-[-0.04em] text-[#2f241d] dark:text-[#f8e8c8] sm:text-5xl lg:text-6xl">
             Creating polished interfaces that feel calm, modern, and memorable.
           </h1>
 
