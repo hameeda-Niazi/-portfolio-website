@@ -19,7 +19,7 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-stone-200/90 bg-[#fffdf9]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <NavLink to="/" className="text-lg font-black tracking-[0.18em] text-[#43362c] uppercase">
-          Hameeda Niazi
+          Hameeda
         </NavLink>
 
         <nav className="hidden items-center gap-6 lg:flex">

@@ -40,8 +40,16 @@ function HeroSection() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.65, delay: 0.1 }} className="rounded-[32px] border border-stone-200 bg-white p-4 shadow-[0_20px_60px_rgba(70,52,40,0.08)]">
-          <div className="rounded-[24px] bg-gradient-to-br from-[#fffdf9] to-[#f4e8df] p-6 sm:p-8">
-            <div className="grid gap-4 sm:grid-cols-2">
+          <div className="rounded-[24px] bg-gradient-to-br from-[#fffdf9] to-[#f4e8df] p-4 sm:p-6">
+            <div className="overflow-hidden rounded-[24px] border border-stone-200 bg-white shadow-sm">
+              <img
+                src={profile.profileImage}
+                alt={`${profile.name} portrait`}
+                className="h-[420px] w-full object-cover object-center sm:h-[500px]"
+              />
+            </div>
+
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl bg-white/90 p-5 shadow-sm">
                 <p className="text-sm text-slate-500">Current focus</p>
                 <p className="mt-2 text-lg font-bold text-[#2f241d]">Interface systems</p>

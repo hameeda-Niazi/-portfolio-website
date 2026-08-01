@@ -1,11 +1,12 @@
 export const profile = {
-  name: 'Hameeda Niazi',
+  name: 'Hameeda',
   role: 'Frontend Developer',
   location: 'Peshawar, Pakistan',
   email: 'hameedaniazi.111@gmail.com',
   github: 'https://github.com/hameeda-Niazi',
   linkedin: 'https://linkedin.com/in/hameeda-niazi',
-  resumeUrl: '/resume-portfolio.txt',
+  resumeUrl: '/resume.pdf/Hameeda_Frontend_Developer_Resume.pdf',
+  profileImage: '/profile-photo.jpeg',
   subtitle:
     'I build refined, conversion-focused interfaces with a strong balance of design taste, engineering discipline, and measurable product thinking.',
 };
